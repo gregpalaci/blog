@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "name": "bloggrify-mistral-demo",
+    "type": "module",
+    "scripts": {
+        "build": "nuxi build",
+        "dev": "nuxt dev -port 3213",
+        "generate": "nuxi generate",
+        "preview": "nuxi preview",
+        "lint": "eslint ."
+    },
+    "dependencies": {
+        "@bloggrify/core": "1.2.1",
+        "@bloggrify/mistral": "1.1.0",
+        "@nuxtjs/seo": "^2.0.0-rc.10",
+        "ipx": "^3.0.1",
+        "nuxt": "3.11.2",
+        "nuxt-schema-org": "^3.3.6"
+    },
+    "devDependencies": {
+        "@nuxt/eslint-config": "^0.2.0",
+        "autoprefixer": "10.4.17",
+        "eslint": "8.56.0",
+        "sass": "1.70.0"
+    }
+}
